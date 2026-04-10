@@ -15,8 +15,11 @@ bindsym $mod+w kill
 # start rofi (a program launcher)
 bindsym $mod+space exec "rofi -show drun"
 
-# start dolphin
+# start thunar
 bindsym $mod+shift+f exec thunar
+
+# floating app
+bindsym $mod+o floating toggle, resize set 1000 800, move position center
 
 # ─── NAVIGATION (VIM STYLE) ───────────────────────────────
 # change focus 
